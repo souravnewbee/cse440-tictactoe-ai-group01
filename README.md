@@ -1,13 +1,10 @@
 # 🎮 Tic-Tac-Toe AI — CSE 440 Project
 
 
+**Course:** CSE 440 — Artificial Intelligence  
+**Group:** 01 | **Section:** 02  
 **Institution:** North South University  
-**Semester:** Summer 2026                
-**Course:** CSE 440 — Artificial Intelligence  | **Section:** 02 
----
-
-
-**Group:** 01 | 
+**Semester:** Summer 2026
 
 ## 👥 Group Members
 
@@ -50,25 +47,31 @@ The goal is to build an AI that never loses, while also exploring how different 
 
 ---
 
-## 📂 Project Structure *(Planned)*
+## 📂 Project Structure
+
+This repository follows the required course structure:
 
 ```
-tic-tac-toe-ai/
+cse440-tictactoe-ai-group01/
 │
-├── src/
-│   ├── game.py           # Core game logic & board representation
-│   ├── minimax.py        # Minimax algorithm implementation
-│   ├── alpha_beta.py     # Alpha-Beta Pruning implementation
-│   ├── heuristics.py     # Heuristic evaluation functions
-│   └── main.py           # Entry point / game runner
+├── main.py                 # Main entry point to run the project
+├── README.md               # Project explanation (this file)
+├── requirements.txt        # Tools/libraries needed to run the project
 │
-├── tests/
-│   └── test_ai.py        # Unit tests for AI logic
+├── data/                    # Datasets (if any)
 │
-├── docs/
-│   └── report.pdf        # Final project report
+├── support/                 # Supporting code files
+│   ├── game.py              # Core game logic & board representation
+│   ├── minimax.py           # Minimax algorithm implementation
+│   ├── alpha_beta.py        # Alpha-Beta Pruning implementation
+│   └── heuristics.py        # Heuristic evaluation functions
 │
-└── README.md
+└── others/                  # Reports, presentations & demo video
+    ├── update_report.pdf        # Mid-project update report
+    ├── update_presentation.pptx # Mid-project update presentation
+    ├── final_report.pdf         # Final project report
+    ├── final_presentation.pptx  # Final project presentation
+    └── demo_video.mp4           # One-minute project demo video
 ```
 
 ---
@@ -82,7 +85,9 @@ tic-tac-toe-ai/
 | Week 3 | Minimax algorithm implementation |
 | Week 4 | Alpha-Beta Pruning optimization |
 | Week 5 | Heuristic functions design & integration |
-| Week 6 | Testing, performance analysis & final report |
+| Week 6 | Update report & update presentation |
+| Week 7 | Testing, performance analysis & demo video |
+| Week 8 | Final report, final presentation & submission |
 
 ---
 
@@ -92,13 +97,13 @@ Instructions for running the project will be added as development progresses.
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/cse440-tictactoe-ai.git
+git clone https://github.com/<your-username>/cse440-tictactoe-ai-group01.git
 
 # Navigate to the project directory
-cd cse440-tictactoe-ai
+cd cse440-tictactoe-ai-group01
 
 # Run the game
-python src/main.py
+python main.py
 ```
 
 ---
