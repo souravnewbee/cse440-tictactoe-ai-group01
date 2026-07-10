@@ -95,7 +95,6 @@ cse440-tictactoe-ai-group01/
 
 | Week | Milestone | Responsible |
 |------|-----------|-------------|
-
 | Week 6 | Heuristic functions design & integration| Sudipta |
 | Week 7 | Performance analysis — Minimax vs Alpha-Beta vs Heuristics (charts & data) | Tabassum |
 | Week 8 | GUI (Pygame/Tkinter) | Sourav |
