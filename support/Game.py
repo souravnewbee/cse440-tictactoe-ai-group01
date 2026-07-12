@@ -51,6 +51,30 @@ class Game:
         self.board = [" "] * 9
         self.current_player = "X"
 
+    # --- extra methods so minimax.py can use this board ---
+
+    def legal_moves(self):
+        # same as get_empty_positions, just the name minimax.py expects
+        return self.get_empty_positions()
+
+    def play(self, move, player):
+        # returns a NEW Game with the move applied, does not touch self
+        new_game = Game()
+        new_game.board = self.board[:]
+        new_game.board[move] = player
+        new_game.current_player = self.current_player
+        return new_game
+
+    def winner(self):
+        # same as check_winner, just the name minimax.py expects
+        return self.check_winner()
+
+    def is_full(self):
+        return " " not in self.board
+
+    def other(self, player):
+        return "O" if player == "X" else "X"
+
 
 def play_cli():
     game = Game()
